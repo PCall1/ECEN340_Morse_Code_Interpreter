@@ -7,11 +7,17 @@ dash), an event is triggered, causing an "inter-letter space" where the state ma
 longer defined period of 1.6 seconds an "inter-word space" event is triggered so the display is shifted and no new character is displayed so a space is shown between words. Input 
 and output pins are configured so that two FPGA's may be connected by serial, half-duplex, communication to send morse coded information and receive the decoded characters. 
 
+
 About Contents:
 
 Basys3_Master.xdc - constraints file includes configurations of input, output, and clock
+
 ECEN340_Final_Report - pdf project report includes explanations, figures, and learning conclusions
+
 Morse Code Table - docx includes morse code to encode letters into morse, and includes 7-segment interpretations of letters because not all characters display the same as english letters
+
 Demo Video - includes a Google Drive link to a brief demonstration
+
 Project Pin Definition - (view the png) shows what buttons and switches are used as input on the Basys 3 FPGA
+
 Project Pin Definition - the docx version also details button press times and the respective events triggered, in addition to buttons and switches used
