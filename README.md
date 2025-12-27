@@ -8,6 +8,7 @@ longer defined period of 1.6 seconds an "inter-word space" event is triggered so
 and output pins are configured so that two FPGA's may be connected by serial, half-duplex, communication to send morse coded information and receive the decoded characters. 
 
 About Contents:
+
 Basys3_Master.xdc - constraints file includes configurations of input, output, and clock
 ECEN340_Final_Report - pdf project report includes explanations, figures, and learning conclusions
 Morse Code Table - docx includes morse code to encode letters into morse, and includes 7-segment interpretations of letters because not all characters display the same as english letters
